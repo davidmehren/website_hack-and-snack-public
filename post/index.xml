@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on H4CK4NDSN4CK</title>
-    <link>https://www.hackandsnack.de/post/</link>
+    <link>https://hackandsnack.de/post/</link>
     <description>Recent content in Posts on H4CK4NDSN4CK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Jul 2017 21:07:08 +0200</lastBuildDate>
     
-	<atom:link href="https://www.hackandsnack.de/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hackandsnack.de/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tor I2p And Co</title>
-      <link>https://www.hackandsnack.de/post/tor-i2p-and-co/</link>
+      <link>https://hackandsnack.de/post/tor-i2p-and-co/</link>
       <pubDate>Wed, 05 Jul 2017 21:07:08 +0200</pubDate>
       
-      <guid>https://www.hackandsnack.de/post/tor-i2p-and-co/</guid>
+      <guid>https://hackandsnack.de/post/tor-i2p-and-co/</guid>
       <description>This will be about anonymity networks.</description>
     </item>
     
