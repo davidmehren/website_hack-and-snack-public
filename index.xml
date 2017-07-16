@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>H4CK4NDSN4CK</title>
+    <title>Hack &#39;n&#39; Snack</title>
     <link>https://hackandsnack.de/</link>
-    <description>Recent content on H4CK4NDSN4CK</description>
+    <description>Recent content on Hack &#39;n&#39; Snack</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
@@ -18,16 +18,7 @@
       <pubDate>Sat, 08 Jul 2017 11:50:32 +0200</pubDate>
       <author>info@hackandsnack.de (FOSS-AG)</author>
       <guid>https://hackandsnack.de/page/about/</guid>
-      <description>Hack and Snack ist ein regelmäßiges Event für alle Technikinteressierten und die, die es noch werden wollen. Ziel ist es bei gemütlichem Ambiente den Austausch zu technischen Themen wie Programmierung, Hardware und Sicherheit zu fördern und einen Ort zu bieten, an dem man in lockerer Gesellschaft an eigenen Projekten arbeiten kann. Dabei stehen euch unter anderem Lötwerkzeuge und ein 3D-Drucker zur Verfügung. Damit ihr weder verhungern noch verdursten müsst, sorgen wir natürlich für ausreichend Verpflegung in Form von Snacks und Getränken.</description>
-    </item>
-    
-    <item>
-      <title>Tor I2p And Co</title>
-      <link>https://hackandsnack.de/post/tor-i2p-and-co/</link>
-      <pubDate>Wed, 05 Jul 2017 21:07:08 +0200</pubDate>
-      <author>info@hackandsnack.de (FOSS-AG)</author>
-      <guid>https://hackandsnack.de/post/tor-i2p-and-co/</guid>
-      <description>This will be about anonymity networks.</description>
+      <description>Hack &amp;lsquo;n&amp;rsquo; Snack ist ein regelmäßiges Event für alle Technikinteressierten und die, die es noch werden wollen. Ziel ist es bei gemütlichem Ambiente den Austausch zu technischen Themen wie Programmierung, Hardware und Sicherheit zu fördern und einen Ort zu bieten, an dem man in lockerer Gesellschaft an eigenen Projekten arbeiten kann. Dabei stehen euch unter anderem Lötwerkzeuge und ein 3D-Drucker zur Verfügung. Damit ihr weder verhungern noch verdursten müsst, sorgen wir natürlich für ausreichend Verpflegung in Form von Snacks und Getränken.</description>
     </item>
     
   </channel>
