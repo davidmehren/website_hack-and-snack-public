@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on H4CK4NDSN4CK</title>
+    <title>Posts on Hack &#39;n&#39; Snack</title>
     <link>https://hackandsnack.de/post/</link>
-    <description>Recent content in Posts on H4CK4NDSN4CK</description>
+    <description>Recent content in Posts on Hack &#39;n&#39; Snack</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
-    <lastBuildDate>Wed, 05 Jul 2017 21:07:08 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2017 10:06:47 +0200</lastBuildDate>
     
 	<atom:link href="https://hackandsnack.de/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tor I2p And Co</title>
-      <link>https://hackandsnack.de/post/tor-i2p-and-co/</link>
-      <pubDate>Wed, 05 Jul 2017 21:07:08 +0200</pubDate>
+      <title>Hack &#39;n&#39; Snack startet!</title>
+      <link>https://hackandsnack.de/post/first_meeting/</link>
+      <pubDate>Mon, 17 Jul 2017 10:06:47 +0200</pubDate>
       <author>info@hackandsnack.de (FOSS-AG)</author>
-      <guid>https://hackandsnack.de/post/tor-i2p-and-co/</guid>
-      <description>This will be about anonymity networks.</description>
+      <guid>https://hackandsnack.de/post/first_meeting/</guid>
+      <description>Nächsten Dienstag ist es endlich soweit: Hack &amp;lsquo;n&amp;rsquo; Snack startet! Doch was ist das eigentlich? Hack &amp;lsquo;n&amp;rsquo; Snack ist ein kooperatives Event der FOSS-AG und des PING e.V., das euch jeden letzten Dienstag im Monat einen Ort bietet, um sich mit anderen über technische Themen auszutauschen, an eigenen Projekten zu arbeiten oder auch gerne mal einen spontanen Vortrag zu seinem Lieblingsthema zu halten. Damit bei uns keiner verdursten oder verhungern muss, stellen wir euch Snacks und Getränke natürlich gratis zur Verfügung.</description>
     </item>
     
   </channel>
