@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
-    <lastBuildDate>Thu, 27 Jul 2017 22:26:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 12 Aug 2017 11:57:29 +0200</lastBuildDate>
     
 	<atom:link href="https://hackandsnack.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hack &#39;n&#39; Snack - Runde 2 - Künstliche Intelligenzen </title>
+      <link>https://hackandsnack.de/post/artificial-intelligence/</link>
+      <pubDate>Sat, 12 Aug 2017 11:57:29 +0200</pubDate>
+      <author>info@hackandsnack.de (FOSS-AG)</author>
+      <guid>https://hackandsnack.de/post/artificial-intelligence/</guid>
+      <description>Hack &amp;lsquo;n&amp;rsquo; Snack geht in die zweite Runde und auch dieses mal haben wir uns ein grobes Thema für euch überlegt: Künstliche Intelligenzen.
+KIs finden Einzug in immer mehr Bereiche des Alltags, sei es nun als selbstfahrendes Auto oder als persönlicher Assistent, der einen mit Musikempfehlungen, Terminerinnerungen und Wettervorhersagen durch den Alltag begleitet. Eine kritische Auseinandersetzung mit diesem Thema wird von Tag zu Tag wichtiger und es gibt einige Fragen, die man sich stellen muss: &amp;ldquo;Wie weit darf eine KI in den menschlichen Alltag eingreifen?</description>
+    </item>
     
     <item>
       <title>Anonymisierungsnetzwerke und das Darknet</title>
