@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Hack &#39;n&#39; Snack</title>
-  <meta property="og:title" content="Hack &#39;n&#39; Snack" />
-  <meta name="twitter:title" content="Hack &#39;n&#39; Snack" />
+  <title>Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</title>
+  <meta property="og:title" content="Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse" />
+  <meta name="twitter:title" content="Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse" />
+  <meta name="description" content="Das Thema vom nächste Hack &lsquo;n&rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das sogenannten Internet of Shi… erm, Internet of Things bilden. Wir wollen uns anschauen, wie man IoT Geräten Informationen entlocken (z.B. über serielel Schnittstellen) oder die Firmware analysieren kann. Dazu wird es auch eine kurze Demo von nmap und binwalk geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem Dowse Projekt.">
+  <meta property="og:description" content="Das Thema vom nächste Hack &lsquo;n&rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das sogenannten Internet of Shi… erm, Internet of Things bilden. Wir wollen uns anschauen, wie man IoT Geräten Informationen entlocken (z.B. über serielel Schnittstellen) oder die Firmware analysieren kann. Dazu wird es auch eine kurze Demo von nmap und binwalk geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem Dowse Projekt.">
+  <meta name="twitter:description" content="Das Thema vom nächste Hack &lsquo;n&rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das …">
   <meta name="author" content="FOSS-AG"/>
   <link href='https://hackandsnack.de/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://hackandsnack.de/img/avatar-icon.png" />
@@ -15,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@fossagtudo" />
   <meta name="twitter:creator" content="@fossagtudo" />
-  <meta property="og:url" content="https://hackandsnack.de/" />
+  <meta property="og:url" content="https://hackandsnack.de/post/iot_and_dowse/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Hack &#39;n&#39; Snack" />
 
   <meta name="generator" content="Hugo 0.26" />
-  <link rel="canonical" href="https://hackandsnack.de/" />
+  <link rel="canonical" href="https://hackandsnack.de/post/iot_and_dowse/" />
   <link rel="alternate" href="https://hackandsnack.de/index.xml" type="application/rss+xml" title="Hack &#39;n&#39; Snack">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -143,45 +146,24 @@
 
 
   
-    <div id="header-big-imgs" data-num-img=1 data-img-src-1="https://hackandsnack.de/img/sphere.jpg" ></div>
-  
 
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
-                <h1>Hack &#39;n&#39; Snack</h1>
-                  
-                    
-                      <hr class="small">
-                      <span class="page-subheading">CYBER CYBER CYBER</span>
-                    
-                  
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
+  <header class="header-section ">
     
     <div class="intro-header no-img">
       
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Hack &#39;n&#39; Snack</h1>
+            <div class="post-heading">
+              <h1>Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</h1>
                 
-                  
-                    <hr class="small">
-                    <span class="page-subheading">CYBER CYBER CYBER</span>
-                  
                 
+                  <span class="post-meta">
+  Gepostet am 12.09.2017
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -192,131 +174,34 @@
 
 
     
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Das Thema vom nächste <strong>Hack &lsquo;n&rsquo; Snack</strong> ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das sogenannten Internet of <del>Shi…</del> erm, Internet of Things bilden. Wir wollen uns anschauen, wie man IoT Geräten Informationen entlocken (z.B. über serielel Schnittstellen) oder die Firmware analysieren kann. Dazu wird es auch eine kurze Demo von <a href="https://www.nmap.org">nmap</a> und <a href="https://github.com/devttys0/binwalk">binwalk</a> geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem <a href="http://dowse.eu/">Dowse</a> Projekt.</p>
+
+<p>Als offener Diskussionsabend ist jeder Teilnehemr dazu eingeladen, selber sein Fachwissen dazu beizutragen. Linux-Vorwissen ist für eine Diskussion vorteilhaft, aber nicht notwendig. Wer ein eigenes Laptop und/oder z.B. einen RaspberryPi mitbringt, kann Dowse mit uns zusammen erforschen. Auch alte Router, Medienspieler, WLAN-Blumenbewässerungsanlagen, WLAN-Drucker oder IP-Kameras sind hervorragende Vorführobjekte, um ihre Software zu erforschen und können gerne mitgebracht werden!</p>
+
+<p><strong>Hack &lsquo;n&rsquo; Snack</strong> findet wie gewohnt am letzten Dienstag des Monats (26.09) ab 18 Uhr im Vereinsheim des <a href="http://www.ping.de">PING e.V.</a> statt.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
         
-
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/iot_and_dowse/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Gepostet am 12.09.2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Das Thema vom nächste Hack &lsquo;n&rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das sogenannten Internet of Shi… erm, Internet of Things bilden. Wir wollen uns anschauen, wie man IoT Geräten Informationen entlocken (z.B. über serielel Schnittstellen) oder die Firmware analysieren kann. Dazu wird es auch eine kurze Demo von nmap und binwalk geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem Dowse Projekt.
-                  <a href="https://hackandsnack.de/post/iot_and_dowse/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/ai-review/">
-                <h2 class="post-title">Künstliche Intelligenzen - Ein Rückblick</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Gepostet am 04.09.2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Das letzte Hack &lsquo;n&rsquo; Snack stand unter dem Thema Künstliche Intelligenzen. Im Rahmen der Veranstaltung haben wir uns aktuelle Entwicklungen in diesem Bereich angeschaut, wie z.B. DeepL, ein Übersetzer, der Google und Co. locker das Wasser reichen kann, ein Verfahren zur Synthetisierung von Lippenbewegungen und Adobes neuste Errungenschaft VoCo, mit dessen Hilfe sich Sprachsamples generieren lassen unter Verwendung einer beliebigen Stimme. Nachdem wir diese Entwicklungen in gemütlicher Runde diskutiert haben, gab es noch einen kurzen Einblick in Googles Machine Learning Library Tensorflow.
-                  <a href="https://hackandsnack.de/post/ai-review/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/artificial-intelligence/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack - Runde 2 - Künstliche Intelligenzen </h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Gepostet am 12.08.2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Hack &lsquo;n&rsquo; Snack geht in die zweite Runde und auch dieses mal haben wir uns ein grobes Thema für euch überlegt: Künstliche Intelligenzen.
-KIs finden Einzug in immer mehr Bereiche des Alltags, sei es nun als selbstfahrendes Auto oder als persönlicher Assistent, der einen mit Musikempfehlungen, Terminerinnerungen und Wettervorhersagen durch den Alltag begleitet. Eine kritische Auseinandersetzung mit diesem Thema wird von Tag zu Tag wichtiger und es gibt einige Fragen, die man sich stellen muss: &ldquo;Wie weit darf eine KI in den menschlichen Alltag eingreifen?
-                  <a href="https://hackandsnack.de/post/artificial-intelligence/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/tor-i2p/">
-                <h2 class="post-title">Anonymisierungsnetzwerke und das Darknet</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Gepostet am 27.07.2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Am Dienstag fand das erste Hack &lsquo;n&rsquo; Snack der FOSS-AG in den Räumlichkeiten des PING e.V. statt. Neben dem Konsumieren von reichlich Snacks und Mate, haben wir uns mit dem Themenschwerpunkt &ldquo;Anonymisierungsnetzwerke und das Darknet&rdquo; auseinandergesetzt und dabei die beiden bekanntesten Vertreter dieses Gebiets etwas genauer unter die Lupe genommen: Tor und I2P. Darüber hinaus gab es noch einen kurzen Abstecher im Freenet. Ebenfalls erwähnenswert ist der vor kurzem in die Beta gekommene Krypto-Messenger Briar, der die gesamte Kommunikation in der Standardeinstellung über das Tor-Netzwerk versendet.
-                  <a href="https://hackandsnack.de/post/tor-i2p/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/first_meeting/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack startet!</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Gepostet am 17.07.2017
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Am 25. Juli ist es endlich soweit: Hack &lsquo;n&rsquo; Snack startet! Doch was ist das eigentlich? Hack &lsquo;n&rsquo; Snack ist ein kooperatives Event der FOSS-AG und des PING e.V., das euch jeden letzten Dienstag im Monat einen Ort bietet, um sich mit anderen über technische Themen auszutauschen, an eigenen Projekten zu arbeiten oder auch gerne mal einen spontanen Vortrag zu seinem Lieblingsthema zu halten. Damit bei uns keiner verdursten oder verhungern muss, stellen wir euch Snacks und Getränke natürlich gratis zur Verfügung.
-                  <a href="https://hackandsnack.de/post/first_meeting/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-            </article>
-          
-        </div>
-
+          <li class="previous">
+            <a href="https://hackandsnack.de/post/ai-review/" data-toggle="tooltip" data-placement="top" title="Künstliche Intelligenzen - Ein Rückblick">&larr; Letzter Post</a>
+          </li>
         
-      </div>
+        
+      </ul>
+
+      
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">

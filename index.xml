@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
-    <lastBuildDate>Mon, 04 Sep 2017 20:18:30 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2017 09:18:30 +0200</lastBuildDate>
     
 	<atom:link href="https://hackandsnack.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</title>
+      <link>https://hackandsnack.de/post/iot_and_dowse/</link>
+      <pubDate>Tue, 12 Sep 2017 09:18:30 +0200</pubDate>
+      <author>info@hackandsnack.de (FOSS-AG)</author>
+      <guid>https://hackandsnack.de/post/iot_and_dowse/</guid>
+      <description>Das Thema vom nächste Hack &amp;lsquo;n&amp;rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetette Geräte, die mit dem Internet verbunden sind und das sogenannten Internet of Shi… erm, Internet of Things bilden. Wir wollen uns anschauen, wie man IoT Geräten Informationen entlocken (z.B. über serielel Schnittstellen) oder die Firmware analysieren kann. Dazu wird es auch eine kurze Demo von nmap und binwalk geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem Dowse Projekt.</description>
+    </item>
     
     <item>
       <title>Künstliche Intelligenzen - Ein Rückblick</title>
@@ -18,7 +27,7 @@
       <pubDate>Mon, 04 Sep 2017 20:18:30 +0200</pubDate>
       <author>info@hackandsnack.de (FOSS-AG)</author>
       <guid>https://hackandsnack.de/post/ai-review/</guid>
-      <description>Das letzte Hack&amp;rsquo;n&amp;rsquo;Snack stand unter dem Thema Künstliche Intelligenzen. Im Rahmen der Veranstaltung haben wir uns aktuelle Entwicklungen in diesem Bereich angeschaut, wie z.B. DeepL, ein Übersetzer, der Google und Co. locker das Wasser reichen kann, ein Verfahren zur Synthetisierung von Lippenbewegungen und Adobes neuste Errungenschaft VoCo, mit dessen Hilfe sich Sprachsamples generieren lassen unter Verwendung einer beliebigen Stimme. Nachdem wir diese Entwicklungen in gemütlicher Runde diskutiert haben, gab es noch einen kurzen Einblick in Googles Machine Learning Library Tensorflow.</description>
+      <description>Das letzte Hack &amp;lsquo;n&amp;rsquo; Snack stand unter dem Thema Künstliche Intelligenzen. Im Rahmen der Veranstaltung haben wir uns aktuelle Entwicklungen in diesem Bereich angeschaut, wie z.B. DeepL, ein Übersetzer, der Google und Co. locker das Wasser reichen kann, ein Verfahren zur Synthetisierung von Lippenbewegungen und Adobes neuste Errungenschaft VoCo, mit dessen Hilfe sich Sprachsamples generieren lassen unter Verwendung einer beliebigen Stimme. Nachdem wir diese Entwicklungen in gemütlicher Runde diskutiert haben, gab es noch einen kurzen Einblick in Googles Machine Learning Library Tensorflow.</description>
     </item>
     
     <item>
