@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
-    <lastBuildDate>Tue, 12 Sep 2017 09:18:30 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 30 Sep 2017 14:41:50 +0200</lastBuildDate>
     
 	<atom:link href="https://hackandsnack.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dowse-Entwickler zu Besuch beim Hack &#39;n&#39; Snack</title>
+      <link>https://hackandsnack.de/post/dowse_review/</link>
+      <pubDate>Sat, 30 Sep 2017 14:41:50 +0200</pubDate>
+      <author>info@hackandsnack.de (FOSS-AG)</author>
+      <guid>https://hackandsnack.de/post/dowse_review/</guid>
+      <description>Das letzte Hack &amp;lsquo;n&amp;rsquo; Snack fand unter dem großen Thema Internet of Thing statt. Im Speziellen haben wir uns dabei Dowse angeschaut und durften dazu sogar Jaromil und Fredd von Dyne als unsere Gäste begrüßen.
+Dowse ist ein wirklich einzigartiges Projekt, denn es verbindet die Welt der freien Software mit der Welt der Kunst. Das Ziel von Dowse ist es ein Bewusstsein für die Geschehnisse im eigenen Netzwerk zu schaffen. Dabei sollen aber keineswegs nur Tools zum Einsatz kommen, die viel technische Expertise erfordern, sondern möglichst kreative Wege erarbeitet werden, die es auch technisch weniger versierten Menschen möglich macht, dieses Bewusstsein zu erlangen.</description>
+    </item>
     
     <item>
       <title>Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</title>
