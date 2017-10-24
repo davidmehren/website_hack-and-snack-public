@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>info@hackandsnack.de (FOSS-AG)</managingEditor>
     <webMaster>info@hackandsnack.de (FOSS-AG)</webMaster>
-    <lastBuildDate>Sat, 30 Sep 2017 14:41:50 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2017 12:53:28 +0200</lastBuildDate>
     
 	<atom:link href="https://hackandsnack.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ansible</title>
+      <link>https://hackandsnack.de/post/ansible/</link>
+      <pubDate>Sun, 22 Oct 2017 12:53:28 +0200</pubDate>
+      <author>info@hackandsnack.de (FOSS-AG)</author>
+      <guid>https://hackandsnack.de/post/ansible/</guid>
+      <description>Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin? Ersparen kann man sich dieses Ratespiel mit Konfigurationsmanagement. Deshalb geht es im nächsten Hack &amp;lsquo;n&amp;rsquo; Snack praktisch zu: In einem Workshop können alle Teilnehmer die Vorzüge von Konfigurationsmanagement mit Ansible kennenlernen. Ansible ist ein Open-Source IT-Automatisierungs-Werkzeug und kann sowohl für den eigenen PC oder Server als auch für die Containerfarm in der Cloud nützlich sein.</description>
+    </item>
     
     <item>
       <title>Dowse-Entwickler zu Besuch beim Hack &#39;n&#39; Snack</title>

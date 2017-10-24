@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
+  <title>Ansible</title>
+  <meta property="og:title" content="Ansible" />
+  <meta name="twitter:title" content="Ansible" />
+  <meta name="description" content="Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin? Ersparen kann man sich dieses Ratespiel mit Konfigurationsmanagement. Deshalb geht es im nächsten Hack &lsquo;n&rsquo; Snack praktisch zu: In einem Workshop können alle Teilnehmer die Vorzüge von Konfigurationsmanagement mit Ansible kennenlernen. Ansible ist ein Open-Source IT-Automatisierungs-Werkzeug und kann sowohl für den eigenen PC oder Server als auch für die Containerfarm in der Cloud nützlich sein.">
+  <meta property="og:description" content="Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin? Ersparen kann man sich dieses Ratespiel mit Konfigurationsmanagement. Deshalb geht es im nächsten Hack &lsquo;n&rsquo; Snack praktisch zu: In einem Workshop können alle Teilnehmer die Vorzüge von Konfigurationsmanagement mit Ansible kennenlernen. Ansible ist ein Open-Source IT-Automatisierungs-Werkzeug und kann sowohl für den eigenen PC oder Server als auch für die Containerfarm in der Cloud nützlich sein.">
+  <meta name="twitter:description" content="Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin? Ersparen kann man …">
   <meta name="author" content="FOSS-AG"/>
   <link href='https://hackandsnack.de/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://hackandsnack.de/img/avatar-icon.png" />
@@ -15,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@fossagtudo" />
   <meta name="twitter:creator" content="@fossagtudo" />
-  <meta property="og:url" content="https://hackandsnack.de/post/" />
+  <meta property="og:url" content="https://hackandsnack.de/post/ansible/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Hack &#39;n&#39; Snack" />
 
   <meta name="generator" content="Hugo 0.30.2" />
-  <link rel="canonical" href="https://hackandsnack.de/post/" />
+  <link rel="canonical" href="https://hackandsnack.de/post/ansible/" />
   <link rel="alternate" href="https://hackandsnack.de/index.xml" type="application/rss+xml" title="Hack &#39;n&#39; Snack">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -135,14 +138,33 @@
 
 
     
+  
+  
+  
+
+
+
+
+  
+
   <header class="header-section ">
+    
     <div class="intro-header no-img">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
+            <div class="post-heading">
+              <h1>Ansible</h1>
+                
+                
+                  <span class="post-meta">
+  Gepostet am 22.10.2017
+  
+</span>
+
+
+                
             </div>
           </div>
         </div>
@@ -150,167 +172,57 @@
     </div>
   </header>
 
+
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin?
+Ersparen kann man sich dieses Ratespiel mit Konfigurationsmanagement.
+Deshalb geht es im nächsten <strong>Hack &lsquo;n&rsquo; Snack</strong> praktisch zu: In einem Workshop können alle Teilnehmer die Vorzüge von Konfigurationsmanagement mit Ansible kennenlernen.
+Ansible ist ein Open-Source IT-Automatisierungs-Werkzeug und kann sowohl für den eigenen PC oder Server als auch für die Containerfarm in der Cloud nützlich sein.</p>
+
+<p>Die Teilnehmer lernen Ansible interaktiv kennen und können das Erlernte direkt testen.</p>
+
+<p>Vorraussetzungen:</p>
+
+<ul>
+<li>Eigenes Notebook mit Linux oder macOS
+
+<ul>
+<li>Windowsnutzer erstellen sich bitte selber eine weitere Linux-VM, z.B. mit Ubuntu.</li>
+</ul></li>
+<li>Sicherer Umgang mit der Kommandozeile, SSH und Git</li>
+<li>Bitte folgende Software installieren:
+
+<ul>
+<li>VirtualBox 5.2</li>
+<li>Python und <a href="http://docs.ansible.com/ansible/latest/intro_installation.html#installing-the-control-machine">Ansible</a></li>
+</ul></li>
+<li>Zum Ausprobieren wird eine virtuelle Maschine für VirtualBox bereitgestellt. Der Link dazu wird demnächst an dieser Stelle zu finden sein.</li>
+</ul>
+
+<p><strong>Hack &lsquo;n&rsquo; Snack</strong> findet wie gewohnt am letzten Dienstag des Monats (31.10) ab 18 Uhr im Vereinsheim des <a href="http://www.ping.de">PING e.V.</a> statt.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/ansible/">
-                <h2 class="post-title">Ansible</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 22.10.2017
-              </p>
-              <div class="post-entry">
-                
-                  Wer kennt das nicht: Den Rechner gerade frisch neu aufgesetzt und das Rätselraten geht los: Welche Software war installiert? Wie war sie eingestellt? Und wo ist die VIM-Konfig hin? Ersparen kann man sich dieses Ratespiel mit Konfigurationsmanagement. Deshalb geht es im nächsten Hack &lsquo;n&rsquo; Snack praktisch zu: In einem Workshop können alle Teilnehmer die Vorzüge von Konfigurationsmanagement mit Ansible kennenlernen. Ansible ist ein Open-Source IT-Automatisierungs-Werkzeug und kann sowohl für den eigenen PC oder Server als auch für die Containerfarm in der Cloud nützlich sein.
-                  <a href="https://hackandsnack.de/post/ansible/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/dowse_review/">
-                <h2 class="post-title">Dowse-Entwickler zu Besuch beim Hack &#39;n&#39; Snack</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 30.09.2017
-              </p>
-              <div class="post-entry">
-                
-                  Das letzte Hack &lsquo;n&rsquo; Snack fand unter dem großen Thema Internet of Thing statt. Im Speziellen haben wir uns dabei Dowse angeschaut und durften dazu sogar Jaromil und Fredd von Dyne als unsere Gäste begrüßen.
-Dowse ist ein wirklich einzigartiges Projekt, denn es verbindet die Welt der freien Software mit der Welt der Kunst. Das Ziel von Dowse ist es ein Bewusstsein für die Geschehnisse im eigenen Netzwerk zu schaffen. Dabei sollen aber keineswegs nur Tools zum Einsatz kommen, die viel technische Expertise erfordern, sondern möglichst kreative Wege erarbeitet werden, die es auch technisch weniger versierten Menschen möglich macht, dieses Bewusstsein zu erlangen.
-                  <a href="https://hackandsnack.de/post/dowse_review/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/iot_and_dowse/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack - IoT Hacking und Netzwerküberwachung mit Dowse</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 12.09.2017
-              </p>
-              <div class="post-entry">
-                
-                  Das Thema vom nächste Hack &lsquo;n&rsquo; Snack ist dieses mal spezifischer und praktischer. Es geht um Hacking und Analyse von eingebetetten Geräten, die mit dem Internet verbunden sind und das sogenannten Internet of Shi… erm, Internet of Things bilden. Wir wollen uns anschauen, wie IoT Geräten Informationen entlockt werden (z.B. über serielle Schnittstellen) oder die Firmware analysiert kann. Dazu wird es auch eine kurze Demo von nmap und binwalk geben. Für die Überwachung und Visualisierung eines Netzwerks beschäftigen wir uns mit dem Dowse Projekt.
-                  <a href="https://hackandsnack.de/post/iot_and_dowse/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/ai-review/">
-                <h2 class="post-title">Künstliche Intelligenzen - Ein Rückblick</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 04.09.2017
-              </p>
-              <div class="post-entry">
-                
-                  Das letzte Hack &lsquo;n&rsquo; Snack stand unter dem Thema Künstliche Intelligenzen. Im Rahmen der Veranstaltung haben wir uns aktuelle Entwicklungen in diesem Bereich angeschaut, wie z.B. DeepL, ein Übersetzer, der Google und Co. locker das Wasser reichen kann, ein Verfahren zur Synthetisierung von Lippenbewegungen und Adobes neuste Errungenschaft VoCo, mit dessen Hilfe sich Sprachsamples generieren lassen unter Verwendung einer beliebigen Stimme. Nachdem wir diese Entwicklungen in gemütlicher Runde diskutiert haben, gab es noch einen kurzen Einblick in Googles Machine Learning Library Tensorflow.
-                  <a href="https://hackandsnack.de/post/ai-review/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/artificial-intelligence/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack - Runde 2 - Künstliche Intelligenzen </h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 12.08.2017
-              </p>
-              <div class="post-entry">
-                
-                  Hack &lsquo;n&rsquo; Snack geht in die zweite Runde und auch dieses mal haben wir uns ein grobes Thema für euch überlegt: Künstliche Intelligenzen.
-KIs finden Einzug in immer mehr Bereiche des Alltags, sei es nun als selbstfahrendes Auto oder als persönlicher Assistent, der einen mit Musikempfehlungen, Terminerinnerungen und Wettervorhersagen durch den Alltag begleitet. Eine kritische Auseinandersetzung mit diesem Thema wird von Tag zu Tag wichtiger und es gibt einige Fragen, die man sich stellen muss: &ldquo;Wie weit darf eine KI in den menschlichen Alltag eingreifen?
-                  <a href="https://hackandsnack.de/post/artificial-intelligence/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/tor-i2p/">
-                <h2 class="post-title">Anonymisierungsnetzwerke und das Darknet</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 27.07.2017
-              </p>
-              <div class="post-entry">
-                
-                  Am Dienstag fand das erste Hack &lsquo;n&rsquo; Snack der FOSS-AG in den Räumlichkeiten des PING e.V. statt. Neben dem Konsumieren von reichlich Snacks und Mate, haben wir uns mit dem Themenschwerpunkt &ldquo;Anonymisierungsnetzwerke und das Darknet&rdquo; auseinandergesetzt und dabei die beiden bekanntesten Vertreter dieses Gebiets etwas genauer unter die Lupe genommen: Tor und I2P. Darüber hinaus gab es noch einen kurzen Abstecher im Freenet. Ebenfalls erwähnenswert ist der vor kurzem in die Beta gekommene Krypto-Messenger Briar, der die gesamte Kommunikation in der Standardeinstellung über das Tor-Netzwerk versendet.
-                  <a href="https://hackandsnack.de/post/tor-i2p/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://hackandsnack.de/post/first_meeting/">
-                <h2 class="post-title">Hack &#39;n&#39; Snack startet!</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                Gepostet am 17.07.2017
-              </p>
-              <div class="post-entry">
-                
-                  Am 25. Juli ist es endlich soweit: Hack &lsquo;n&rsquo; Snack startet! Doch was ist das eigentlich? Hack &lsquo;n&rsquo; Snack ist ein kooperatives Event der FOSS-AG und des PING e.V., das euch jeden letzten Dienstag im Monat einen Ort bietet, um sich mit anderen über technische Themen auszutauschen, an eigenen Projekten zu arbeiten oder auch gerne mal einen spontanen Vortrag zu seinem Lieblingsthema zu halten. Damit bei uns keiner verdursten oder verhungern muss, stellen wir euch Snacks und Getränke natürlich gratis zur Verfügung.
-                  <a href="https://hackandsnack.de/post/first_meeting/" class="post-read-more">[Mehr]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-        </div>
+          <li class="previous">
+            <a href="https://hackandsnack.de/post/dowse_review/" data-toggle="tooltip" data-placement="top" title="Dowse-Entwickler zu Besuch beim Hack &#39;n&#39; Snack">&larr; Letzter Post</a>
+          </li>
         
-      </div>
+        
+      </ul>
+
+      
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
